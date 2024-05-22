@@ -48,11 +48,11 @@ export function Hero(){
                 lg:justify-between lg:px-20'>
                     <p className='text-[#36485c] text-center lg-text-[15px]'>Trusted by these companies</p>
 <div className='grid grid-cols-4 items-center justify-center justify-items-center px-[20] 
-align-middle lg:grid-cols-5'>
-    <Image src={google} alt="icons" width={50} height={20}/>
-    <Image src={trustpilot} alt="icons" width={50} height={20}/>
-    <Image src={cnn} alt="icons" width={50} height={20}/>
-    <Image src={slack} alt="icons" width={50} height={20}/>
+align-middle lg:grid-cols-5 gap-3'>
+    <Image src={google} alt="icons" width={40} height={10}/>
+    <Image src={trustpilot} alt="icons" width={40} height={10}/>
+    <Image src={cnn} alt="icons" width={40} height={10}/>
+    <Image src={slack} alt="icons" width={40} height={10}/>
 
 </div>
                 </div>
