@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import arrow from '../../public/right-arrow-svgrepo-com.svg'
 import violet from '../../public/violet.png'
-import techtheme from '../../public/tech-theme.png'
+import undraw from '../../public/undraw.svg'
 import cnn from '../../public/cnn.svg'
 import google from '../../public/google.svg'
 import trustpilot from '../../public/trustpilot.svg'
@@ -37,19 +37,23 @@ export function Hero(){
            
            <div className='relative flex h-full w-full justify-center'>
             <Image src={violet} alt="gradient"
-            className='min-h-[500px] w-full object-cover'/>
-            <div className='absolute bottom-5 flex w-full flex-col items-center'>
-                <Image src={techtheme}
+            className='min-h-[500px] w-full object-cover lg:h-auto'/>
+            <div className='absolute bottom-40 top-32 flex w-full flex-col items-center'>
+                <Image src={undraw}
                 alt="techtheme"
-                className='ml-4 h-[400px]'
+                className='ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:auto xl-w-[70%]'
                 />
-                <div className='flex w-full flex-col items-center'>
-                    <p className='text-[#36485c] text-center'>Trusted by these companies</p>
-<div className='grid grid-cols-4 items-center justify-center justify-items-center px-[20] align-middle'>
-    <Image src={google} alt="icons"/>
-    <Image src={trustpilot} alt="icons"/>
-    <Image src={cnn} alt="icons"/>
-    <Image src={slack} alt="icons"/>
+                <div className='flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between 
+                lg:px-20 lg:mt-[140px]'
+               
+                >
+                    <p className='text-[#36485c] text-center lg:text-[15px]'>Trusted by these companies</p>
+<div className='grid grid-cols-3 items-center justify-center justify-items-center px-[20px] 
+align-middle lg:grid-cols-5 gap-2'>
+    <Image src={google} alt="icons" width={40} height={10}/>
+    <Image src={trustpilot} alt="icons" width={40} height={10}/>
+    <Image src={cnn} alt="icons" width={40} height={10}/> 
+    {/* <Image src={slack} alt="icons" width={40} height={10}/> */}
 
 </div>
                 </div>
