@@ -41,18 +41,19 @@ export function Hero(){
             <div className='absolute bottom-40 top-32 flex w-full flex-col items-center'>
                 <Image src={undraw}
                 alt="techtheme"
-                className='ml-4 h-[310px] sm:-mb-20 sm:h-[400px] 
-                lg:-mb-28 lg:auto xl-w-[70%]'
+                className='ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:auto xl-w-[70%]'
                 />
-                <div className='flex w-full flex-col items-center lg:container lg:flex-row
-                lg:justify-between lg:px-20'>
-                    <p className='text-[#36485c] text-center lg-text-[15px]'>Trusted by these companies</p>
-<div className='grid grid-cols-4 items-center justify-center justify-items-center px-[20] 
-align-middle lg:grid-cols-5 gap-3'>
+                <div className='flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between 
+                lg:px-20 lg:mt-[140px]'
+               
+                >
+                    <p className='text-[#36485c] text-center lg:text-[15px]'>Trusted by these companies</p>
+<div className='grid grid-cols-3 items-center justify-center justify-items-center px-[20px] 
+align-middle lg:grid-cols-5 gap-2'>
     <Image src={google} alt="icons" width={40} height={10}/>
     <Image src={trustpilot} alt="icons" width={40} height={10}/>
-    <Image src={cnn} alt="icons" width={40} height={10}/>
-    <Image src={slack} alt="icons" width={40} height={10}/>
+    <Image src={cnn} alt="icons" width={40} height={10}/> 
+    {/* <Image src={slack} alt="icons" width={40} height={10}/> */}
 
 </div>
                 </div>
