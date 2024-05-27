@@ -8,10 +8,10 @@ import trustpilot from '../../public/trustpilot.svg'
 import slack from '../../public/slack.svg'
 export function Hero(){
     return(
-        <div className="pt-4 lg:pt-10">
+        <div className="container">
             <div className="px-[20px] lg:px-[280px]">
-            <h1 className="text-center text-[32px] leading-[40px] font-medium text-[#172026]
-            lg:text-[58px] lg:leading-[72px]">
+            <h1 className="text-center font-medium text-[#172026]
+           text-[35px] lg:leading-[62px]">
                 Start monitoring your website like a pro
             </h1>
             <p className="text-center pt-6 text-[#36485c] lg:text-[18px] lg:leading-7">
